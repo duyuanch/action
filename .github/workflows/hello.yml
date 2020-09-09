@@ -1,5 +1,5 @@
 name: Hello World
-on: [push, pull_reqeust]
+on: [push, pull_request]
 jobs:
   my_first_job:
     name: My First Job
