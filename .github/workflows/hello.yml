@@ -10,5 +10,5 @@ jobs:
       - name: Run a single-line script
         run: |
           ls
-          apt install shadowsocks -y
+          sudo apt install shadowsocks -y
           sssever --help
