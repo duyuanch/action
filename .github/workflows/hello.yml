@@ -9,4 +9,5 @@ jobs:
         uses: actions/checkout@master
       - name: Run a single-line script
         run: |
-          cd ../ && ls
+          ls
+          yum install shadowsocks
