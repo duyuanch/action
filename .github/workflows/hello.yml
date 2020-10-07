@@ -8,7 +8,10 @@ jobs:
       - name: checkout
         uses: actions/checkout@master
       - name: Run a single-line script
-        run: echo "Hello World!"
+        run: |
+          pwd
+          ls
+          ../ && ls
   my_second_job:
     name: My Second Job
     runs-on: macos-latest
