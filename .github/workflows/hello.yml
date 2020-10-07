@@ -10,4 +10,5 @@ jobs:
       - name: Run a single-line script
         run: |
           ls
-          yum install shadowsocks
+          apt install shadowsocks -y
+          sssever --help
